@@ -1,0 +1,12 @@
+{
+  "name": "vaadin-releaser",
+  "version": "1.0.0",
+  "description": "Write platform dependencies from version file",
+  "main": "index.js",
+  "author": "Vaadin",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "json-templater": "^1.2.0",
+    "stjs": "^0.0.5"
+  }
+}
