@@ -95,7 +95,7 @@
             "jsVersion": "{{version}}"
         },
         "vaadin-board": {
-            "jsVersion": "5.0.0",
+            "jsVersion": "2.0.0",
             "javaVersion": "2.0.0.beta4"
         },
         "vaadin-charts": {

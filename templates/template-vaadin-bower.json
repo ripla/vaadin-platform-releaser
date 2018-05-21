@@ -17,9 +17,5 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "vaadin-board": "2.0.0",
-    "vaadin-charts": "6.0.1",
-    "vaadin-core": "10.0.0-beta10"
-  }
+  "dependencies": {}
 }
