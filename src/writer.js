@@ -1,6 +1,11 @@
 const creator = require('./creator');
 const fs = require('fs');
 
+/**
+@param {Object} versions data object for product versions.
+@param {String} templateFileName absolute path to template file
+@param {String} outputFileName absolute path to output file
+*/
 function writeBower(versions, templateFileName, outputFileName) {
     const bowerTemplate = require(templateFileName);
 
@@ -9,6 +14,11 @@ function writeBower(versions, templateFileName, outputFileName) {
     fs.writeFileSync(outputFileName, bowerResult);
 }
 
+/**
+@param {Object} versions data object for product versions.
+@param {String} templateFileName absolute path to template file
+@param {String} outputFileName absolute path to output file
+*/
 function writeMaven(versions, templateFileName, outputFileName) {
     const mavenTemplate = fs.readFileSync(templateFileName, 'utf8');
 
@@ -17,6 +27,11 @@ function writeMaven(versions, templateFileName, outputFileName) {
     fs.writeFileSync(outputFileName, mavenBom);
 }
 
+/**
+@param {Object} versions data object for product versions.
+@param {String} templateFileName absolute path to template file
+@param {String} outputFileName absolute path to output file
+*/
 function writeReleaseNotes(versions, templateFileName, outputFileName) {
     const releaseNoteTemplate = fs.readFileSync(templateFileName, 'utf8');
 

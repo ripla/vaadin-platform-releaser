@@ -4,7 +4,7 @@
   "description": "Write platform dependencies from version file",
   "main": "index.js",
   "author": "Vaadin",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "scripts": {
     "release": "node release.js",
     "test": "mocha"
