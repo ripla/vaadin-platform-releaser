@@ -1,7 +1,6 @@
 const expect = require('chai').expect;
 const creator = require('../src/creator.js');
 
-
 describe('Bower creator', function () {
     it('should replace dependencies with a valid object of Javascript versions', function () {
         const testVersions = {
