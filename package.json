@@ -6,7 +6,6 @@
   "author": "Vaadin",
   "license": "Apache-2.0",
   "scripts": {
-    "release": "node release.js",
     "test": "mocha"
   },
   "dependencies": {
